@@ -1,0 +1,93 @@
+/* Mobile First means designing for mobile before designing for desktop or any other device 
+(This will make the page display faster on smaller devices). */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: rgb(87, 85, 85);
+}
+
+.container {
+  padding: 4vh 6vw;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+h2 {
+  font-size: 2.5vh;
+  color: rgb(126, 124, 124);
+}
+
+.accordion {
+  padding-top: 4vh;
+  list-style: none;
+}
+
+.accordion li {
+  margin: 1vh 0px;
+  border: 1px solid lightgray;
+}
+
+.accordion-panel li {
+  margin: 0;
+  border: none;
+}
+
+.accordion-control {
+  padding: 1vh 2.5vw;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-size: 2.7vh;
+}
+
+.accordion-control i {
+  align-items: initial;
+  color: rgb(175, 5, 5);
+  float: right;
+}
+
+.accordion-control i:first-child {
+  display: none;
+}
+
+.accordion-panel {
+  border: 1px solid darkgray;
+  display: none;
+  padding: 1vh 4vw 10vh;
+  font-size: 2.3vh;
+}
+
+.accordion-panel li {
+  margin-top: 1vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (width: 375px) {
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
